@@ -1,11 +1,14 @@
-
+import React from "react";
+import "./App.css";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
     <>
-     <h1>hii</h1>
+      <Layout>
+      </Layout>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
