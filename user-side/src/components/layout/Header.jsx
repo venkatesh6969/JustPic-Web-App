@@ -37,9 +37,9 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <Link to="/" className="navbar-brand">
-              🛒 Ecommerce App
+              <img id="logo-nav" src="./public/logo.jpg" alt="Logo" srcset="" /> JustPic
             </Link>
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul id="navi-bar" className="navbar-nav m-auto mb-2 mb-lg-0">
               <SearchInput />
               <li className="nav-item">
                 <NavLink to="/" className="nav-link ">
@@ -68,7 +68,6 @@ const Header = () => {
                       >
                         {c.name}
                       </Link>
-                      
                     </li>
                   ))}
                 </ul>

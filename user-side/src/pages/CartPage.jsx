@@ -162,7 +162,7 @@ const CartPage = () => {
                         })
                       }
                     >
-                      Plase Login to checkout
+                      Please Login to checkout
                     </button>
                   )}
                 </div>
@@ -176,7 +176,7 @@ const CartPage = () => {
                       options={{
                         authorization: clientToken,
                         paypal: {
-                          flow: "vault",
+                        flow: "vault",
                         },
                       }}
                       onInstance={(instance) => setInstance(instance)}
